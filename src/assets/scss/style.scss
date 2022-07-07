@@ -14,12 +14,18 @@
   box-sizing: border-box;
 }
 
-body{
+header{
   background-image: url('@/assets/img/bg_image.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
+  background-size: contain;
+
+  a:hover{
+    background-color: white;
+    color: blueviolet!important;
+  }
+  
 }
+
+
 
 
 .logo{
@@ -28,4 +34,11 @@ body{
     height: 200px;
     width: 200px;
   }
+}
+
+/* MAIN */
+
+main{
+  background-color: var(--bs-gray-800);
+    height: 600px;
 }
