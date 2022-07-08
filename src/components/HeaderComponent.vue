@@ -15,7 +15,7 @@
 
         <!-- Inserimento Logo -->
         <div class="logo">
-          <img src="@/assets/img/photo.PNG" alt="foto profilo" />
+          <img src="@/assets/img/photo.png" alt="foto profilo" />
         </div>
         <!-- Inserimento Nome,Cognome e professione -->
         <div class="name p-3">

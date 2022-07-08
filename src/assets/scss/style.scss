@@ -29,6 +29,10 @@ header {
 
 
 .logo {
+  background-color: rgb(0 0 0 / 31%);
+  border-radius: 50%;
+  
+
   img {
     border-radius: 50%;
     height: 200px;
@@ -321,5 +325,3 @@ $color2: #D93A54;
     transform: rotate(-40deg);
   }
 }
-
-
