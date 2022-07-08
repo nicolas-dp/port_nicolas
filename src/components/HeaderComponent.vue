@@ -49,25 +49,29 @@
             style="--bs-scroll-height: 100px"
           >
             <li class="nav-item">
-              <a class="nav-link" href="#"><font-awesome-icon icon="fa-solid fa-address-card" />
-              <div>About</div>
+              <a class="nav-link" href="#about"><font-awesome-icon icon="fa-solid fa-address-card" />
+               About
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#"><font-awesome-icon icon="fa-solid fa-briefcase" />
-              
+              Esperienze
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"><font-awesome-icon icon="fa-solid fa-graduation-cap" /></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"
-                ><font-awesome-icon icon="fa-solid fa-phone" />
+              <a class="nav-link" href="#"><font-awesome-icon icon="fa-solid fa-graduation-cap" />
+              Formazione
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"><font-awesome-icon icon="fa-solid fa-file-invoice" /></a>
+              <a class="nav-link" href="#"><font-awesome-icon icon="fa-solid fa-phone" />
+              Contatti
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><font-awesome-icon icon="fa-solid fa-file-invoice" />
+              CV
+              </a>
             </li>
           </ul>
 

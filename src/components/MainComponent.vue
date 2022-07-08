@@ -1,11 +1,11 @@
 <template>
   <main class="text-white">
-    <section id="about mt-5">
+    <section id="about" class="pt-5">
       <div class="container">
         <h1>About me</h1>
         <p>
           🎓Dopo gli studi ho lavorato per 9 anni in un'azienda di consulenza
-          clienti, nella quale ho sviluppato la SKILL "Team Working", per me
+          clienti, nella quale ho sviluppato diverse skills, migliorando la capicità di "Team Working", per me
           fondamentale nel mondo del lavoro. <br />
           💪 Non ho mai abbandonato la mia passione per i linguaggi di
           programmazione affrontati durante il mio percorso scolastico,
@@ -19,7 +19,7 @@
           StarWars
         </i>
       </div>
-      
+
       <!-- Sottomarino -->
       <div class="sea">
         <div class="circle-wrapper">
