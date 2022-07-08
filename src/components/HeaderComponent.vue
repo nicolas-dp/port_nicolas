@@ -12,6 +12,9 @@
         <div class="name p-3">
           <h1>Nicolas De Palma</h1>
           <span>Jr. Full Stack Web Developer</span>
+          <div class="baffo">
+            
+          </div>
         </div>
       </div>
     </div>
@@ -21,7 +24,7 @@
       <div class="container">
         <!-- Navbar brand -->
         <a class="navbar-brand me-2" href="https://mdbgo.com/">
-          <i class="fas fa-dev    "></i>
+          <i class="fas fa-dev"></i>
         </a>
 
         <!-- Toggle button -->
@@ -57,15 +60,26 @@
           <!-- Left links -->
 
           <div class="d-flex align-items-center">
-            <span>Link</span>
-            <a type="button" class="btn btn-primary me-3">
-              
+            <a
+              class="btn btn-dark px-3"
+              href="https://www.linkedin.com/in/nicolas-de-palma-a77851146/"
+              role="button"
+              ><font-awesome-icon icon="fa-brands fa-instagram" />
             </a>
+
+            <a
+              class="btn btn-dark px-3"
+              href="https://www.linkedin.com/in/nicolas-de-palma-a77851146/"
+              role="button"
+              ><font-awesome-icon icon="fa-brands fa-linkedin" />
+            </a>
+
             <a
               class="btn btn-dark px-3"
               href="https://github.com/nicolas-dp"
               role="button"
-              ><font-awesome-icon icon="fa-brands fa-github" /></a>
+              ><font-awesome-icon icon="fa-brands fa-github"
+            /></a>
           </div>
         </div>
         <!-- Collapsible wrapper -->
