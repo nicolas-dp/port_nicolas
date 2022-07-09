@@ -11,7 +11,7 @@
           gap-3
         "
       >
-        <!-- TODO Inerimento loghi programmazione -->
+        
 
         <!-- Inserimento Logo -->
         <div class="logo">
@@ -21,7 +21,6 @@
         <div class="name p-3">
           <h1>Nicolas De Palma</h1>
           <span>Jr. Full Stack Web Developer</span>
-          <div class="baffo"></div>
         </div>
       </div>
     </div>
@@ -78,7 +77,7 @@
           <div class="d-flex align-items-center justify-content-center">
             <a
               class="btn btn-dark px-3"
-              href="https://www.linkedin.com/in/nicolas-de-palma-a77851146/"
+              href="https://www.instagram.com/_nicolasdp_/"
               role="button"
               ><font-awesome-icon icon="fa-brands fa-instagram" />
             </a>
