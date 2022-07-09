@@ -49,11 +49,11 @@
           >
             <li class="nav-item">
               <a class="nav-link" href="#about"><font-awesome-icon icon="fa-solid fa-address-card" />
-               About
+               Profilo
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"><font-awesome-icon icon="fa-solid fa-briefcase" />
+              <a class="nav-link" href="#esperienze"><font-awesome-icon icon="fa-solid fa-briefcase" />
               Esperienze
               </a>
             </li>
