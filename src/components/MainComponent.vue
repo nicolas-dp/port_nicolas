@@ -3,7 +3,7 @@
     <!-- About -->
     <section id="about" class="about pt-5">
       <div class="container">
-        <h1>PROFILO</h1>
+        <h3><font-awesome-icon icon="fa-solid fa-address-card" /> PROFILO</h3>
         <p>
           🎓Dopo gli studi ho lavorato per 9 anni in un'azienda di consulenza
           clienti, nella quale ho sviluppato diverse skills, migliorando la
@@ -31,7 +31,7 @@
     <!-- Esperienze -->
     <section id="esperienze" class="pt-5">
       <div class="container text-black">
-        <h1>ESPERIENZE</h1>
+        <h3><font-awesome-icon icon="fa-solid fa-briefcase" /> ESPERIENZE</h3>
 
         <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 justify-content-center">
           <div class="col">
@@ -103,20 +103,51 @@
 
       <!-- Code -->
       <div class="code">
-        <img class="img-fluid" src="@/assets/img/img_header.png" alt="code" />
+        <img height="200" src="@/assets/img/img_header.png" alt="code" />
+      </div>
+    </section>
+    <!-- Formazione -->
+    <section id="esperienze" class="pt-5">
+      <div class="container text-black">
+        <h3><font-awesome-icon icon="fa-solid fa-graduation-cap" /> FORMAZIONE</h3>
+
+        <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 justify-content-center">
+          <div class="col">
+            
+            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+              <div class="flipper">
+                  <div class="front"><h1>FRONT</h1></div>
+                  <div class="back"><h1>BACK</h1></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <!-- Image Formazione -->
+      <div class="code">
+        <img height="200" src="@/assets/img/formazione.png" alt="code" />
+      </div>
       </div>
     </section>
     <!-- Contatti  -->
-    <section id="contacts" class="pt-5">
+    <section id="contacts" class="box pt-5 bg-dark">
       <div class="container">
-        
+        <div class="text-white">
+          <h3><font-awesome-icon icon="fa-solid fa-phone" /> CONTATTI</h3>
+          <ul class="list-unstyled">
+            <li> Telefono</li>
+            <li> Mail</li>
+            <li> Telefono</li>
+          </ul>
+        </div>
       </div>
     </section>
     <!-- CV -->
-    <section id="cv" class="pt-5">
-      <div class="container box">
-        <h1>CURRICULUM</h1>
-        <a class="btn btn-one bg-dark" href="@/assets/img/CV_nicolas_depalma.pdf" download>Scarica CV</a>
+    <section id="cv" class="box pt-5 pb-5">
+      <div class="container d-flex flex-column align-items-center gap-3 text-black">
+        <h3><font-awesome-icon icon="fa-solid fa-file-invoice" /> CURRICULUM</h3>
+        <img src="@/assets/img/cv_image.png" alt="img CV" height="150">
+        <a class="btn btn-success" href="@/assets/img/CV_nicolas_depalma.pdf" download>Scarica CV</a>
       </div>
     </section>
   </main>
