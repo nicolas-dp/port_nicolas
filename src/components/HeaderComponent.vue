@@ -68,7 +68,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"><font-awesome-icon icon="fa-solid fa-file-invoice" />
+              <a class="nav-link" href="#cv"><font-awesome-icon icon="fa-solid fa-file-invoice" />
               CV
               </a>
             </li>

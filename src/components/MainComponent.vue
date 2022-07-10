@@ -27,18 +27,14 @@
         <img class="img-fluid" src="@/assets/img/yoda.png" alt="maestro yoda" />
       </div>
     </section>
+    
     <!-- Esperienze -->
     <section id="esperienze" class="pt-5">
-      <div class="container">
+      <div class="container text-black">
         <h1>ESPERIENZE</h1>
 
-        <div
-          class="
-            row row-cols-1 row-cols-md-3 row-cols-lg-3
-            justify-content-center
-          "
-        >
-          <div class="col text-black">
+        <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 justify-content-center">
+          <div class="col">
             <div class="card p-3 mb-2">
               <div class="d-flex">
                 <div class="d-flex flex-row align-items-center">
@@ -65,7 +61,7 @@
             </div>
           </div>
 
-          <div class="col text-black">
+          <div class="col">
             <div class="card p-3 mb-2">
               <div class="d-flex justify-content-between">
                 <div class="d-flex flex-row align-items-center">
@@ -108,6 +104,19 @@
       <!-- Code -->
       <div class="code">
         <img class="img-fluid" src="@/assets/img/img_header.png" alt="code" />
+      </div>
+    </section>
+    <!-- Contatti  -->
+    <section id="contacts" class="pt-5">
+      <div class="container">
+        
+      </div>
+    </section>
+    <!-- CV -->
+    <section id="cv" class="pt-5">
+      <div class="container box">
+        <h1>CURRICULUM</h1>
+        <a class="btn btn-one bg-dark" href="@/assets/img/CV_nicolas_depalma.pdf" download>Scarica CV</a>
       </div>
     </section>
   </main>
