@@ -116,8 +116,57 @@
             
             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
               <div class="flipper">
-                  <div class="front"><h1>FRONT</h1></div>
-                  <div class="back"><h1>BACK</h1></div>
+                  <div class="front"> 
+                    <img class="img-fluid" src="@/assets/img/Spotify.png" alt="">
+                  </div>
+                  <div class="back">
+                    <h4>Web App Spotify</h4>
+                    <p>
+                        Riproduzione della Web App di Spotify utilizzando HTML e CSS.
+                        É possibile visionare il progetto seguendo questo link 👉: <a href="https://github.com/nicolas-dp/html-css-spotifyweb">Spotify Web</a> 
+                    </p>
+
+                  </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col">
+            
+            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+              <div class="flipper">
+                  <div class="front"> 
+                    <img class="img-fluid" src="@/assets/img/CampoMinato.png" alt="">
+                  </div>
+                  <div class="back">
+                    <h4>Campo Minato</h4>
+                    <p>
+                        Uno dei giochi più famosi e divertenti della storia, parliamo di campo minato.
+                        ATTENZIONE non è così facile come sembra 🧐.
+                        É possibile visionare il codice tramite questo link 👉: <a href="https://github.com/nicolas-dp/js-campominato-dom">Campo Minato</a> 
+                    </p>
+
+                  </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col">
+            
+            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+              <div class="flipper">
+                  <div class="front"> 
+                    <img class="img-fluid" src="@/assets/img/Boolzapp.png" alt="">
+                  </div>
+                  <div class="back">
+                    <h4>Boolzapp</h4>
+                    <p>
+                        Replica web app del più famoso servizio di messeggistica. É possibile visionare il codice del progetto tramite questo link 👉: <a href="https://github.com/nicolas-dp/vue-boolzapp">Whatsapp Web</a> 
+                    </p>
+
+                  </div>
               </div>
             </div>
 
@@ -130,26 +179,30 @@
       </div>
     </section>
     <!-- Contatti  -->
-    <section id="contacts" class="box pt-5 bg-dark">
+    <section id="contacts_cv" class="box pt-5 bg-dark">
       <div class="container">
-        <div class="text-white">
-          <h3><font-awesome-icon icon="fa-solid fa-phone" /> CONTATTI</h3>
+        <div class="row text-white">
+          <div class="col-6">
+            <h3><font-awesome-icon icon="fa-solid fa-phone" /> CONTATTI</h3>
           <ul class="list-unstyled">
-            <li> Telefono</li>
-            <li> Mail</li>
-            <li> Telefono</li>
+            <li> Telefono: <a href="+39 3923378249">Chiama</a></li>
+            <li> Mail: <a href="wellcomenicolas@gmail.com" mail>Invia una mail</a></li>
+            <li> Instagram: </li>
           </ul>
+          </div>
+          <div class="col-6">
+          <!-- CV -->
+          <div class="container d-flex flex-column align-items-center gap-3">
+              <h3><font-awesome-icon icon="fa-solid fa-file-invoice" /> CURRICULUM</h3>
+              <img src="@/assets/img/cv_image.png" alt="img CV" height="150">
+              <a class="btn btn-success" href="@/assets/img/CV_nicolas_depalma.pdf" download>Scarica CV</a>
+          </div>
+          </div>
         </div>
       </div>
     </section>
-    <!-- CV -->
-    <section id="cv" class="box pt-5 pb-5">
-      <div class="container d-flex flex-column align-items-center gap-3 text-black">
-        <h3><font-awesome-icon icon="fa-solid fa-file-invoice" /> CURRICULUM</h3>
-        <img src="@/assets/img/cv_image.png" alt="img CV" height="150">
-        <a class="btn btn-success" href="@/assets/img/CV_nicolas_depalma.pdf" download>Scarica CV</a>
-      </div>
-    </section>
+    
+    
   </main>
 </template>
 

@@ -62,17 +62,26 @@ header {
 
 /* FLIP BOX */
 
-.flip-container {perspective: 1000px; transform-style: preserve-3d;}
-.flip-container:hover .back {transform: rotateY(0deg);}
-.flip-container:hover .front {transform: rotateY(180deg);}
+.flip-container {
+  perspective: 1000px; 
+  transform-style: preserve-3d;
+}
+.flip-container:hover .back {
+  transform: rotateY(0deg);
+}
+.flip-container:hover .front {
+  transform: rotateY(180deg);
+}
 .flip-container, .front, .back {
   width: 340px;
-  height: 120px;
-  margin: 0 25px 25px 0;
-  float:left;
+  
+  
 }
 
-.flipper {transition: 0.6s; transform-style: preserve-3d;	position: relative;}
+.flipper {
+  transition: 0.6s; 
+  transform-style: preserve-3d;	
+  position: relative;}
 
 /* hide back of pane during swap */
 .front, .back {
@@ -80,15 +89,20 @@ header {
 	transition: 0.6s;
 	transform-style: preserve-3d;
 	position: absolute;
-	top: 0;
-	left: 0;
+	
 }
 
-.front {z-index: 2;	transform: rotateY(0deg);}
+.front {
+  z-index: 2;	
+  transform: rotateY(0deg);
+  img{
+    height: 15rem;
+  }  
+}
 .back {
 	transform: rotateY(-180deg);
-  background: #bbb;
-  color: #000;
+  background: rgba(71, 70, 70, 0.812);
+  color: rgba(0, 0, 0, 0.755);
   text-align:center;
   line-height:1.4em;
 }
