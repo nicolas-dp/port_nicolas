@@ -2,7 +2,7 @@
   <main class="text-white">
     <!-- About -->
     <section id="about" class="about pt-5">
-      <div class="container">
+      <div class="container" data-aos="fade-right">
         <h3><font-awesome-icon icon="fa-solid fa-address-card" /> PROFILO</h3>
         <p>
           🎓Dopo gli studi ho lavorato per 9 anni in un'azienda di consulenza
@@ -34,7 +34,7 @@
         <h3><font-awesome-icon icon="fa-solid fa-briefcase" /> ESPERIENZE</h3>
 
         <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 justify-content-center">
-          <div class="col">
+          <div class="col" data-aos="fade-right">
             <div class="card p-3 mb-2">
               <div class="d-flex">
                 <div class="d-flex flex-row align-items-center">
@@ -61,7 +61,7 @@
             </div>
           </div>
 
-          <div class="col">
+          <div class="col" data-aos="fade-left">
             <div class="card p-3 mb-2">
               <div class="d-flex justify-content-between">
                 <div class="d-flex flex-row align-items-center">
@@ -112,7 +112,7 @@
         <h3><font-awesome-icon icon="fa-solid fa-person-digging" /> Progetti</h3>
 
         <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 justify-content-center gap-3">
-          <div class="col">
+          <div class="col" data-aos="zoom-in-down">
             
             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
               <div class="flipper">
@@ -132,7 +132,7 @@
 
           </div>
 
-          <div class="col">
+          <div class="col" data-aos="zoom-in-down">
             
             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
               <div class="flipper">
@@ -153,7 +153,7 @@
 
           </div>
 
-          <div class="col">
+          <div class="col" data-aos="zoom-in-down">
             
             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
               <div class="flipper">
@@ -204,9 +204,14 @@
 </template>
 
 <script>
+
 export default {
   name: "MainComponent",
+
+  
 };
+
+
 </script>
 
 <style scoped>

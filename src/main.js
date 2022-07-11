@@ -1,5 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
+import AOS from 'aos'
+import 'aos/dist/aos.css';
 
 /* Fontawsome */
 /* import the fontawesome core */
@@ -20,7 +22,7 @@ Vue.component('font-awesome-icon', FontAwesomeIcon)
 /* Bootstrap */
 const bootstrap = require('bootstrap')
 Vue.use(bootstrap)
-
+AOS.init();
 Vue.config.productionTip = false
 
 new Vue({

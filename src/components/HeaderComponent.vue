@@ -8,7 +8,7 @@
           flex-wrap
           align-items-center
           justify-content-center
-          gap-3
+          gap-3 animated
         "
       >
         
@@ -18,7 +18,7 @@
           <img src="@/assets/img/photo.png" alt="foto profilo" />
         </div>
         <!-- Inserimento Nome,Cognome e professione -->
-        <div class="name p-3">
+        <div class="name p-3 ">
           <h1>Nicolas De Palma</h1>
           <span>Jr. Full Stack Web Developer</span>
         </div>
