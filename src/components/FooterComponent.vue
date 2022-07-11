@@ -1,7 +1,7 @@
 <template>
   <footer class="bg-dark text-white">
     <div class="container">
-        <small>CopyRight</small>
+        <small>© Copyright 2022 Nicolas De Palma - All Rights Reserved</small>
     </div>
   </footer>
 </template>

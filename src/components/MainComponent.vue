@@ -123,7 +123,7 @@
                     <h4>Web App Spotify</h4>
                     <p>
                         Riproduzione della Web App di Spotify utilizzando HTML e CSS.
-                        É possibile visionare il progetto seguendo questo link 👉: <a class="btn btn-primary" href="https://github.com/nicolas-dp/html-css-spotifyweb">Scopri</a> 
+                        É possibile visionare il progetto seguendo questo link 👉: <a class="btn btn-primary" href="https://spotify-wapp.netlify.app">Scopri</a> 
                     </p>
 
                   </div>
@@ -144,7 +144,7 @@
                     <p>
                         Uno dei giochi più famosi e divertenti della storia, parliamo di campo minato.
                         ATTENZIONE non è così facile come sembra 🧐.
-                        É possibile visionare il codice tramite questo link 👉: <a class="btn btn-primary" href="https://github.com/nicolas-dp/js-campominato-dom">Scopri</a> 
+                        É possibile visionare il codice tramite questo link 👉: <a class="btn btn-primary" href="https://campo-minato-repl.netlify.app/">Scopri</a> 
                     </p>
 
                   </div>
@@ -163,7 +163,7 @@
                   <div class="back">
                     <h4>Boolzapp</h4>
                     <p>
-                        Replica web app del più famoso servizio di messeggistica. É possibile visionare il codice del progetto tramite questo link 👉: <a class="btn btn-primary" href="https://github.com/nicolas-dp/vue-boolzapp">Scopri</a> 
+                        Replica web app del più famoso servizio di messeggistica. É possibile visionare il codice del progetto tramite questo link 👉: <a class="btn btn-primary" href="https://vue-boolzapp.netlify.app">Scopri</a> 
                     </p>
 
                   </div>
@@ -176,8 +176,8 @@
       </div>
     </section>
     <!-- Contatti  -->
-    <section id="contacts_cv" class="box pt-5 bg-dark">
-      <div class="container">
+    <section id="contacts_cv" class="box pt-5">
+      <div class="container bg-dark">
         <div class="row text-white">
           <div class="col-6">
             <h3><font-awesome-icon icon="fa-solid fa-phone" /> CONTATTI</h3>
@@ -192,7 +192,7 @@
           <div class="container d-flex flex-column align-items-center gap-3">
               <h3><font-awesome-icon icon="fa-solid fa-file-invoice" /> CURRICULUM</h3>
               <img src="@/assets/img/cv_image.png" alt="img CV" height="150">
-              <a class="btn btn-success" href="@/assets/img/CV_nicolas_depalma.pdf" download>Scarica CV</a>
+              <a class="btn btn-danger" href="@/assets/img/CV_nicolas_depalma.pdf" download>Scarica CV</a>
           </div>
           </div>
         </div>

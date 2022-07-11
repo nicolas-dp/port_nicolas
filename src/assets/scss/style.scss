@@ -95,18 +95,20 @@ header {
   backface-visibility: hidden;
   transition: 0.6s;
   transform-style: preserve-3d;
+  border-radius: 15%;
 }
 
 .back {
   position: absolute;
   top: 0;
   bottom: 0;
+  padding: 2rem;
 }
 
 .front {
   z-index: 2;
   transform: rotateY(0deg);
-
+  border-radius: 15%;
   img {
     height: 15rem;
   }
