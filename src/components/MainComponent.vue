@@ -106,12 +106,12 @@
         <img height="200" src="@/assets/img/img_header.png" alt="code" />
       </div>
     </section>
-    <!-- Formazione -->
-    <section id="esperienze" class="pt-5">
+    <!-- Work -->
+    <section id="work" class="pt-5">
       <div class="container text-black">
-        <h3><font-awesome-icon icon="fa-solid fa-graduation-cap" /> FORMAZIONE</h3>
+        <h3><font-awesome-icon icon="fa-solid fa-person-digging" /> Progetti</h3>
 
-        <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 justify-content-center">
+        <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 justify-content-center gap-3">
           <div class="col">
             
             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
@@ -123,7 +123,7 @@
                     <h4>Web App Spotify</h4>
                     <p>
                         Riproduzione della Web App di Spotify utilizzando HTML e CSS.
-                        É possibile visionare il progetto seguendo questo link 👉: <a href="https://github.com/nicolas-dp/html-css-spotifyweb">Spotify Web</a> 
+                        É possibile visionare il progetto seguendo questo link 👉: <a class="btn btn-primary" href="https://github.com/nicolas-dp/html-css-spotifyweb">Scopri</a> 
                     </p>
 
                   </div>
@@ -144,7 +144,7 @@
                     <p>
                         Uno dei giochi più famosi e divertenti della storia, parliamo di campo minato.
                         ATTENZIONE non è così facile come sembra 🧐.
-                        É possibile visionare il codice tramite questo link 👉: <a href="https://github.com/nicolas-dp/js-campominato-dom">Campo Minato</a> 
+                        É possibile visionare il codice tramite questo link 👉: <a class="btn btn-primary" href="https://github.com/nicolas-dp/js-campominato-dom">Scopri</a> 
                     </p>
 
                   </div>
@@ -163,7 +163,7 @@
                   <div class="back">
                     <h4>Boolzapp</h4>
                     <p>
-                        Replica web app del più famoso servizio di messeggistica. É possibile visionare il codice del progetto tramite questo link 👉: <a href="https://github.com/nicolas-dp/vue-boolzapp">Whatsapp Web</a> 
+                        Replica web app del più famoso servizio di messeggistica. É possibile visionare il codice del progetto tramite questo link 👉: <a class="btn btn-primary" href="https://github.com/nicolas-dp/vue-boolzapp">Scopri</a> 
                     </p>
 
                   </div>
@@ -172,10 +172,7 @@
 
           </div>
         </div>
-        <!-- Image Formazione -->
-      <div class="code">
-        <img height="200" src="@/assets/img/formazione.png" alt="code" />
-      </div>
+        
       </div>
     </section>
     <!-- Contatti  -->
@@ -190,7 +187,7 @@
             <li> Instagram: </li>
           </ul>
           </div>
-          <div class="col-6">
+          <div class="col-6 bg-success">
           <!-- CV -->
           <div class="container d-flex flex-column align-items-center gap-3">
               <h3><font-awesome-icon icon="fa-solid fa-file-invoice" /> CURRICULUM</h3>
