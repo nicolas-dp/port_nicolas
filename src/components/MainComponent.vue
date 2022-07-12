@@ -180,9 +180,9 @@
       <div class="container bg-dark">
         <div class="row text-white">
           <div class="col-6">
-            <h3><font-awesome-icon icon="fa-solid fa-phone" /> CONTATTI</h3>
+            <h3 class="position-relative"><font-awesome-icon icon="fa-solid fa-phone" /> CONTATTI</h3>
           <ul class="list-unstyled">
-            <li> Telefono: <a class="btn btn-primary" href="callto://+393923378249" title="Chiama ora "> Chiama ora</a></li>
+            <li><a class="btn chiama_ora btn-primary" href="callto://+393923378249" title="Chiama ora "> Chiama ora</a></li>
             
             <li> Mail: <a href="wellcomenicolas@gmail.com">Invia una mail</a></li>
             <li> Instagram: </li>
@@ -193,7 +193,8 @@
           <div class="container d-flex flex-column align-items-center gap-3">
               <h3><font-awesome-icon icon="fa-solid fa-file-invoice" /> CURRICULUM</h3>
               <img src="@/assets/img/cv_image.png" alt="img CV" height="150">
-              <a class="btn btn-danger" href="@/assets/img/CV_nicolas_depalma.pdf" download>Scarica CV</a>
+              <a class="btn btn-danger" href="https://drive.google.com/file/d/1BDyyD5C9NLKACzW2l2KfQQL75bUQKuP1/view?usp=sharing" download>Scarica CV</a>
+              
           </div>
           </div>
         </div>

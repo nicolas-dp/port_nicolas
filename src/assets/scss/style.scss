@@ -109,6 +109,7 @@ header {
   z-index: 2;
   transform: rotateY(0deg);
   border-radius: 15%;
+
   img {
     height: 15rem;
   }
@@ -147,4 +148,15 @@ header {
 h1 {
   padding-top: 25px;
   color: #fff;
+}
+
+
+
+
+
+/* CONTATTI */
+.chiama_ora {
+  position: absolute;
+  left: 189px;
+  transform: rotate(327deg);
 }
