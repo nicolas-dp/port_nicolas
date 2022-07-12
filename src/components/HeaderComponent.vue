@@ -58,7 +58,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"><font-awesome-icon icon="fa-solid fa-graduation-cap" />
+              <a class="nav-link" href="#formazione"><font-awesome-icon icon="fa-solid fa-graduation-cap" />
               Formazione
               </a>
             </li>

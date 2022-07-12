@@ -3,7 +3,7 @@
     <!-- About -->
     <section id="about" class="about pt-5 mb-5">
       <div class="container" data-aos="fade-right">
-        <h3><font-awesome-icon icon="fa-solid fa-address-card" /> PROFILO</h3>
+        <h3 data-aos="fade-down"><font-awesome-icon icon="fa-solid fa-address-card" /> PROFILO</h3>
         <p>
           🎓Dopo gli studi ho lavorato per 9 anni in un'azienda di consulenza
           clienti, nella quale ho sviluppato diverse skills, migliorando la
@@ -30,7 +30,7 @@
     <!-- Esperienze -->
     <section id="esperienze" class="pt-5 mb-5">
       <div class="container text-black">
-        <h3><font-awesome-icon icon="fa-solid fa-briefcase" /> ESPERIENZE</h3>
+        <h3 data-aos="fade-down"><font-awesome-icon icon="fa-solid fa-briefcase" /> ESPERIENZE</h3>
 
         <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 justify-content-center">
           <div class="col" data-aos="fade-right">
@@ -105,10 +105,74 @@
         <img height="200" src="@/assets/img/img_header.png" alt="code" />
       </div>
     </section>
+    <!-- Formazione -->
+    <section id="formazione" class="pt-5 mb-5">
+      <div class="container text-black">
+        <h3 data-aos="fade-down"><font-awesome-icon icon="fa-solid fa-graduation-cap" /> FORMAZIONE</h3>
+          <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 justify-content-center ">
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title">Boolean Carrers</h3>
+              <p class="card-text">Jr. Full Stack Web Developer</p>
+              <small>Feb. 2022 - Ago. 2022</small>
+              <a href="https://boolean.careers/corso/full-stack-web-developer" class="btn btn-dark" style="
+                  display: block;
+              ">Vai al sito</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title">I.I.S.S. G.Ferraris</h3>
+              <p class="card-text">Perito Informatico</p>
+              <small>2006-2011</small>
+              <a href="https://www.ferrarismolfetta.edu.it/" class="btn btn-dark bg-dark" style="
+                  display: block;
+              ">Vai al sito</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- Competenze -->
+    <section id="competenze" class="pt-5 mb-5">  
+      
+      <div class="container">
+        <h4 class="text-dark" data-aos="fade-down"><font-awesome-icon icon="fa-solid fa-brush" />Skills</h4>
+        <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 justify-content-center gap-3">
+          <div class="card text-light bg-success mb-3 pt-3" style="max-width: 16rem;">
+            <div class="card-body" data-aos="zoom-out">
+              <p class="card-text">Ottime capacità di comunicazione e networking</p>
+            </div>
+          </div>
+
+          <div class="card text-light bg-success mb-3 pt-3" style="max-width: 16rem;">
+            <div class="card-body" data-aos="zoom-out">
+              <p class="card-text">Lavorare bene sia in team che in modo indipendente</p>
+            </div>
+          </div>
+
+          <div class="card text-light bg-success mb-3 pt-3" style="max-width: 16rem;">
+            <div class="card-body" data-aos="zoom-out">
+              <p class="card-text">Capacità di lavorare sotto pressione e multitasking</p>
+            </div>
+          </div>
+
+          <div class="card text-light bg-success mb-3 pt-3" style="max-width: 16rem;">
+            <div class="card-body" data-aos="zoom-out">
+              <p class="card-text">Capacità di seguire le istruzioni e produrre risultati di qualità</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- Work -->
     <section id="work" class="pt-5 mb-5">
       <div class="container text-black">
-        <h3><font-awesome-icon icon="fa-solid fa-person-digging" /> Progetti</h3>
+        <h3 data-aos="fade-down"><font-awesome-icon icon="fa-solid fa-person-digging" /> Progetti</h3>
 
         <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 justify-content-center gap-3">
           <div class="col" data-aos="zoom-in-down">
@@ -178,7 +242,7 @@
     <section id="contacts_cv" class="box bg-dark pt-5 pb-5">
       <div class="container bg-dark mt-5">
         <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 justify-content-center gap-5 text-white">
-          <div class="col-6">
+          <div class="col-6" data-aos="flip-up">
             <div class="main_contatti bg-dark">
                 <img src="@/assets/img/photo.png" alt="foto profilo" class="img-fluid" />
             </div>
@@ -218,7 +282,7 @@
             </div>
 
           </div>
-          <div class="col-6">
+          <div class="col-6" data-aos="flip-down">
           <!-- CV -->
           <div class="container">
               <h5>👇 Scarica il Curriculum 👇</h5>
@@ -230,8 +294,6 @@
         </div>
       </div>
     </section>
-    
-    
   </main>
 </template>
 
@@ -242,9 +304,6 @@ export default {
 </script>
 
 <style scoped>
-body {
-  background-color: #eee;
-}
 
 .card {
   border: none;
@@ -264,32 +323,15 @@ body {
 }
 
 .badge span {
-  background-color: #fffbec;
+  background-color: #30302fb6;
   width: 60px;
   height: 25px;
   padding-bottom: 3px;
   border-radius: 5px;
   display: flex;
-  color: #fed85d;
+  color: white;
   justify-content: center;
   align-items: center;
 }
 
-.progress {
-  height: 10px;
-  border-radius: 10px;
-}
-
-.progress div {
-  background-color: red;
-}
-
-.text1 {
-  font-size: 14px;
-  font-weight: 600;
-}
-
-.text2 {
-  color: #a5aec0;
-}
 </style>
