@@ -1,7 +1,7 @@
 <template>
   <main class="text-white">
     <!-- About -->
-    <section id="about" class="about pt-5">
+    <section id="about" class="about pt-5 mb-5">
       <div class="container" data-aos="fade-right">
         <h3><font-awesome-icon icon="fa-solid fa-address-card" /> PROFILO</h3>
         <p>
@@ -26,10 +26,9 @@
       <div class="yoda pb-5">
         <img class="img-fluid" src="@/assets/img/yoda.png" alt="maestro yoda" />
       </div>
-    </section>
-    
+    </section>   
     <!-- Esperienze -->
-    <section id="esperienze" class="pt-5">
+    <section id="esperienze" class="pt-5 mb-5">
       <div class="container text-black">
         <h3><font-awesome-icon icon="fa-solid fa-briefcase" /> ESPERIENZE</h3>
 
@@ -107,7 +106,7 @@
       </div>
     </section>
     <!-- Work -->
-    <section id="work" class="pt-5">
+    <section id="work" class="pt-5 mb-5">
       <div class="container text-black">
         <h3><font-awesome-icon icon="fa-solid fa-person-digging" /> Progetti</h3>
 
@@ -176,14 +175,18 @@
       </div>
     </section>
     <!-- Contatti  -->
-    <section id="contacts_cv" class="box bg-dark pt-5">
-      <div class="container bg-dark">
-        <div class="row text-white">
+    <section id="contacts_cv" class="box bg-dark pt-5 pb-5">
+      <div class="container bg-dark mt-5">
+        <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 justify-content-center gap-5 text-white">
           <div class="col-6">
-            <div class="main_contatti">
-              <h5>CONTATTI</h5> 
+            <div class="main_contatti bg-dark">
+                <img src="@/assets/img/photo.png" alt="foto profilo" class="img-fluid" />
+            </div>
+            <div class="icon">
+              
               <span>
-                <a class="btn chiama_ora btn-dark" href="callto://+393923378249" title="Chiama ora "><font-awesome-icon icon="fa-solid fa-phone" /></a>
+                <a class="btn chiama_ora btn-dark" href="callto://+393923378249" title="Chiama ora "><font-awesome-icon icon="fa-solid fa-phone" style="transform: rotate(86deg);" /></a>
+                <div class="border-phone"></div>
               </span>
 
               <span>
@@ -217,7 +220,7 @@
           </div>
           <div class="col-6">
           <!-- CV -->
-          <div class="container d-flex flex-column align-items-center gap-3">
+          <div class="container">
               <h5>👇 Scarica il Curriculum 👇</h5>
               <img src="@/assets/img/cv_image.png" alt="img CV" height="150">
               <a class="btn btn-danger" href="https://drive.google.com/file/d/1BDyyD5C9NLKACzW2l2KfQQL75bUQKuP1/view?usp=sharing" download>Scarica CV</a>
