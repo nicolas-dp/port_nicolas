@@ -176,18 +176,19 @@
       </div>
     </section>
     <!-- Contatti  -->
-    <section id="contacts_cv" class="box pt-5">
+    <section id="contacts_cv" class="box bg-dark pt-5">
       <div class="container bg-dark">
         <div class="row text-white">
           <div class="col-6">
             <h3><font-awesome-icon icon="fa-solid fa-phone" /> CONTATTI</h3>
           <ul class="list-unstyled">
-            <li> Telefono: <a href="+39 3923378249">Chiama</a></li>
-            <li> Mail: <a href="wellcomenicolas@gmail.com" mail>Invia una mail</a></li>
+            <li> Telefono: <a href="callto://+393923378249" title="Chiama ora "><img src="/images/chiamami.png" alt="Chiama ora" /></a></li>
+            
+            <li> Mail: <a href="wellcomenicolas@gmail.com">Invia una mail</a></li>
             <li> Instagram: </li>
           </ul>
           </div>
-          <div class="col-6 bg-success">
+          <div class="col-6">
           <!-- CV -->
           <div class="container d-flex flex-column align-items-center gap-3">
               <h3><font-awesome-icon icon="fa-solid fa-file-invoice" /> CURRICULUM</h3>
