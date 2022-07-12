@@ -155,8 +155,48 @@ h1 {
 
 
 /* CONTATTI */
+
+.main_contatti {
+  position: relative;
+  top: 5rem;
+  border: 4px solid white;
+  border-radius: 50%;
+  width: 8rem;
+  height: 8rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  left: 13rem;
+  justify-content: center;
+}
+
 .chiama_ora {
   position: absolute;
-  left: 189px;
-  transform: rotate(327deg);
+  top: -1rem;
+  left: -5rem;
+}
+
+.email {
+  position: absolute;
+  bottom: 9rem;
+  left: -2rem;
+}
+
+.instagram {
+  position: absolute;
+  bottom: 10rem;
+  left: 2rem;
+}
+
+.linkedin {
+  position: absolute;
+  bottom: 9rem;
+  left: 7rem;
+}
+
+.github {
+  position: absolute;
+  bottom: 6rem;
+  left: 9rem;
 }

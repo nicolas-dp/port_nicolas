@@ -180,18 +180,45 @@
       <div class="container bg-dark">
         <div class="row text-white">
           <div class="col-6">
-            <h3 class="position-relative"><font-awesome-icon icon="fa-solid fa-phone" /> CONTATTI</h3>
-          <ul class="list-unstyled">
-            <li><a class="btn chiama_ora btn-primary" href="callto://+393923378249" title="Chiama ora "> Chiama ora</a></li>
+            <div class="main_contatti">
+              <h5>CONTATTI</h5> 
+              <span>
+                <a class="btn chiama_ora btn-dark" href="callto://+393923378249" title="Chiama ora "><font-awesome-icon icon="fa-solid fa-phone" /></a>
+              </span>
+
+              <span>
+                <a class="btn email btn-dark" href="mailto://wellcomenicolas@gmail.com" title="Email "><font-awesome-icon icon="fa-solid fa-at" /></a>
+              </span>
+
+              <span>
+                <a class="btn instagram btn-dark px-3" href="https://www.instagram.com/_nicolasdp_/" role="button"><font-awesome-icon icon="fa-brands fa-instagram" />
+                </a>
+              </span>
+            <span>
+                <a
+              class="btn linkedin btn-dark px-3"
+              href="https://www.linkedin.com/in/nicolas-de-palma-a77851146/"
+              role="button"
+              ><font-awesome-icon icon="fa-brands fa-linkedin" />
+                </a>
+            </span>
             
-            <li> Mail: <a href="wellcomenicolas@gmail.com">Invia una mail</a></li>
-            <li> Instagram: </li>
-          </ul>
+            <span>
+                <a
+              class="btn github btn-dark px-3"
+              href="https://github.com/nicolas-dp"
+              role="button"
+              ><font-awesome-icon icon="fa-brands fa-github"
+              /></a>
+            </span>
+            
+            </div>
+
           </div>
           <div class="col-6">
           <!-- CV -->
           <div class="container d-flex flex-column align-items-center gap-3">
-              <h3><font-awesome-icon icon="fa-solid fa-file-invoice" /> CURRICULUM</h3>
+              <h5>👇 Scarica il Curriculum 👇</h5>
               <img src="@/assets/img/cv_image.png" alt="img CV" height="150">
               <a class="btn btn-danger" href="https://drive.google.com/file/d/1BDyyD5C9NLKACzW2l2KfQQL75bUQKuP1/view?usp=sharing" download>Scarica CV</a>
               
@@ -206,14 +233,9 @@
 </template>
 
 <script>
-
 export default {
   name: "MainComponent",
-
-  
 };
-
-
 </script>
 
 <style scoped>
