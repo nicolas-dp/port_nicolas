@@ -57,6 +57,7 @@
                   web pages DC Comics, Discord, DropBox e molte altre.
                 </p>
               </div>
+              <img src="@/assets/img/code.png" alt="linguaggi img" class="img-fluid">
             </div>
           </div>
 
