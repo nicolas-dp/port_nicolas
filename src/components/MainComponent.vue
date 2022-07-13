@@ -330,9 +330,7 @@ export default {
 
 .badge span {
   background-color: #30302fb6;
-  width: 60px;
-  height: 25px;
-  padding-bottom: 3px;
+  padding: 0.5rem;
   border-radius: 5px;
   display: flex;
   color: white;
