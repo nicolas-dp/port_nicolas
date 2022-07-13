@@ -79,7 +79,7 @@
               </div>
               <div class="mt-2">
                 <p>Durante la mia esperienza, ho perfezionato le seguenti competenze: 
-                <ul>
+                <ul class="list-unstyled">
                   <li>
                     Help Desk Support
                   </li>
@@ -172,11 +172,11 @@
         <h3 data-aos="fade-down" class="mb-5"><font-awesome-icon icon="fa-solid fa-person-digging" /> Progetti</h3>
 
         <div class="row row-cols-1 row-cols-md-5 row-cols-lg-5 justify-content-center gap-5">
-          <div class="col" data-aos="zoom-in-down">
+          <!-- <div class="col" data-aos="zoom-in-down">
             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
               <div class="flipper">
                   <div class="front"> 
-                    <h4 class="text-black" style="filter: drop-shadow(0px 2px 7px black);">Resturant</h4>
+                    <h4 class="text-black" style="filter: drop-shadow(0px 2px 7px black);">Restaurant</h4>
                     <img class="img-fluid" src="@/assets/img/resturant.png" alt="view resturant">
                   </div>
                   <div class="back">
@@ -187,7 +187,7 @@
                   </div>
               </div>
             </div>
-          </div>
+          </div> -->
 
           <div class="col" data-aos="zoom-in-down">
             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
