@@ -175,10 +175,27 @@
             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
               <div class="flipper">
                   <div class="front"> 
+                    <h4 class="text-black" style="filter: drop-shadow(0px 2px 7px black);">Resturant</h4>
+                    <img class="img-fluid" src="@/assets/img/resturant.png" alt="view resturant">
+                  </div>
+                  <div class="back">
+                    <p>
+                        Riproduzione di un sito web per un ristorante utilizzando Vue.js.
+                        É possibile visionare il progetto seguendo questo link 👉: <a class="btn btn-dark" href="https://resturant-site-proj.netlify.app">Scopri</a> 
+                    </p>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col" data-aos="zoom-in-down">
+            <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+              <div class="flipper">
+                  <div class="front"> 
+                    <h4 class="text-black" style="filter: drop-shadow(0px 2px 7px black);">Web App Spotify</h4>
                     <img class="img-fluid" src="@/assets/img/Spotify.png" alt="view spotify">
                   </div>
                   <div class="back">
-                    <h4>Web App Spotify</h4>
                     <p>
                         Riproduzione della Web App di Spotify utilizzando HTML e CSS.
                         É possibile visionare il progetto seguendo questo link 👉: <a class="btn btn-dark" href="https://spotify-wapp.netlify.app">Scopri</a> 
@@ -193,10 +210,10 @@
             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
               <div class="flipper">
                   <div class="front"> 
+                    <h4 class="text-black" style="filter: drop-shadow(0px 2px 7px black);">Campo Minato</h4>
                     <img class="img-fluid" src="@/assets/img/CampoMinato.png" alt="view campominato">
                   </div>
                   <div class="back">
-                    <h4>Campo Minato</h4>
                     <p>
                         Uno dei giochi più famosi e divertenti della storia, parliamo di campo minato.
                         ATTENZIONE non è così facile come sembra 🧐.
@@ -213,10 +230,10 @@
             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
               <div class="flipper">
                   <div class="front"> 
+                    <h4 class="text-black" style="filter: drop-shadow(0px 2px 7px black);">Boolzapp</h4>
                     <img class="img-fluid" src="@/assets/img/Boolzapp.png" alt="view whatsapp">
                   </div>
                   <div class="back">
-                    <h4>Boolzapp</h4>
                     <p>
                         Replica web app del più famoso servizio di messeggistica. É possibile visionare il codice del progetto tramite questo link 👉: <a class="btn btn-dark" href="https://vue-boolzapp.netlify.app">Scopri</a> 
                     </p>
