@@ -176,7 +176,6 @@
 
         <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 justify-content-center gap-3">
           <div class="col" data-aos="zoom-in-down">
-            
             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
               <div class="flipper">
                   <div class="front"> 
@@ -186,13 +185,11 @@
                     <h4>Web App Spotify</h4>
                     <p>
                         Riproduzione della Web App di Spotify utilizzando HTML e CSS.
-                        É possibile visionare il progetto seguendo questo link 👉: <a class="btn btn-primary" href="https://spotify-wapp.netlify.app">Scopri</a> 
+                        É possibile visionare il progetto seguendo questo link 👉: <a class="btn btn-dark" href="https://spotify-wapp.netlify.app">Scopri</a> 
                     </p>
-
                   </div>
               </div>
             </div>
-
           </div>
 
           <div class="col" data-aos="zoom-in-down">
@@ -207,7 +204,7 @@
                     <p>
                         Uno dei giochi più famosi e divertenti della storia, parliamo di campo minato.
                         ATTENZIONE non è così facile come sembra 🧐.
-                        É possibile visionare il codice tramite questo link 👉: <a class="btn btn-primary" href="https://campo-minato-repl.netlify.app/">Scopri</a> 
+                        É possibile visionare il codice tramite questo link 👉: <a class="btn btn-dark" href="https://campo-minato-repl.netlify.app/">Scopri</a> 
                     </p>
 
                   </div>
@@ -217,7 +214,6 @@
           </div>
 
           <div class="col" data-aos="zoom-in-down">
-            
             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
               <div class="flipper">
                   <div class="front"> 
@@ -226,13 +222,11 @@
                   <div class="back">
                     <h4>Boolzapp</h4>
                     <p>
-                        Replica web app del più famoso servizio di messeggistica. É possibile visionare il codice del progetto tramite questo link 👉: <a class="btn btn-primary" href="https://vue-boolzapp.netlify.app">Scopri</a> 
+                        Replica web app del più famoso servizio di messeggistica. É possibile visionare il codice del progetto tramite questo link 👉: <a class="btn btn-dark" href="https://vue-boolzapp.netlify.app">Scopri</a> 
                     </p>
-
                   </div>
               </div>
             </div>
-
           </div>
         </div>
         
@@ -284,11 +278,10 @@
           </div>
           <div class="col-6" data-aos="flip-down">
           <!-- CV -->
-          <div class="container">
+          <div class="container d-flex flex-column align-content-center align-items-center gap-3">
               <h5>👇 Scarica il Curriculum 👇</h5>
               <img src="@/assets/img/cv_image.png" alt="img CV" height="150">
               <a class="btn btn-danger" href="https://drive.google.com/file/d/1BDyyD5C9NLKACzW2l2KfQQL75bUQKuP1/view?usp=sharing" download>Scarica CV</a>
-              
           </div>
           </div>
         </div>
