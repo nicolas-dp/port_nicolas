@@ -236,12 +236,16 @@
     <section id="contacts_cv" class="box bg-dark pt-5 pb-5">
       <div class="container bg-dark mt-5">
         <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 justify-content-center gap-5 text-white">
+         
           <div class="col-6" data-aos="flip-up">
-            <div class="main_contatti bg-dark">
-                <img src="@/assets/img/photo.png" alt="foto profilo" class="img-fluid" />
-            </div>
+             <h5>Contatti</h5>
+            
+                <div class="logo_footer_contatti">
+                    <img src="@/assets/img/photo_1.png" alt="foto profilo" />
+                </div>
+            
             <div class="icon">
-              
+                
               <span>
                 <a class="btn chiama_ora btn-dark" href="callto://+393923378249" title="Chiama ora "><font-awesome-icon icon="fa-solid fa-phone" style="transform: rotate(86deg);" /></a>
                 <div class="border-phone"></div>
@@ -276,7 +280,7 @@
             </div>
 
           </div>
-          <div class="col-6" data-aos="flip-down">
+          <div class="col" data-aos="flip-down">
           <!-- CV -->
           <div class="container d-flex flex-column align-content-center align-items-center gap-3">
               <h5>👇 Scarica il Curriculum 👇</h5>
