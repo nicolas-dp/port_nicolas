@@ -19,12 +19,6 @@
 header {
   background-image: url('@/assets/img/bg_image.jpg');
   background-size: contain;
-
-  a:hover {
-    background-color: rgba(41, 39, 39, 0.785);
-    color: blueviolet !important;
-  }
-
 }
 
 
@@ -113,13 +107,15 @@ header {
   border-radius: 15%;
 
   img {
-    height: 15rem;
+    height: 13rem;
+    width: 19rem;
+    border-radius: 2rem;
   }
 }
 
 .back {
   transform: rotateY(-180deg);
-  
+
   color: rgba(0, 0, 0, 0.755);
   text-align: center;
   line-height: 1.4em;
@@ -158,7 +154,7 @@ h1 {
 
 /* CONTATTI */
 
-/* .main_contatti {
+.main_contatti {
   border: 2px solid white;
   border-radius: 50%;
   width: 8rem;
@@ -170,26 +166,10 @@ h1 {
   justify-content: center;
   position: absolute;
   z-index: 2;
-} */
-
-.logo_footer_contatti{
-  border: 2px solid white;
-  border-radius: 50%;
-  width: 8rem;
-  height: 8rem;
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  z-index: 2;
-
-  img {
-    height: 200px;
-    width: 200px;
-  }
+  background-color: var(--bs-dark);
 }
+
+
 
 .col-6 {
   display: flex;
@@ -208,7 +188,6 @@ h1 {
   position: absolute;
   top: -2rem;
   left: -2rem;
-  z-index: 2;
   background-color: transparent;
   border: none;
   border-right: #f9fafb;
@@ -217,30 +196,73 @@ h1 {
   z-index: 0;
 
   &:hover {
-    background-color: #dc3545;
+    background-color: #26d116;
   }
 }
 
 .email {
   position: absolute;
-  bottom: 9rem;
-  left: -2rem;
+  bottom: 5rem;
+  left: 0rem;
+  background-color: transparent;
+  border: none;
+  border-right: #f9fafb;
+  height: 7rem;
+  transform: rotate(329deg);
+  z-index: 0;
+
+  &:hover {
+    background-color: #2a8ae4;
+  }
 }
 
 .instagram {
   position: absolute;
-  bottom: 10rem;
-  left: 2.5rem;
+  bottom: 6rem;
+  left: 2.3rem;
+  background-color: transparent;
+  border: none;
+  border-right: #f9fafb;
+  height: 7rem;
+  transform: rotate(359deg);
+  z-index: 0;
+
+  &:hover {
+    background-color: #bf165c;
+
+  }
 }
 
 .linkedin {
   position: absolute;
-  bottom: 9rem;
-  left: 7rem;
+  bottom: 5rem;
+  left: 5rem;
+  background-color: transparent;
+  border: none;
+  border-right: #f9fafb;
+  height: 7rem;
+  transform: rotate(31deg);
+  z-index: 0;
+
+  &:hover {
+    background-color: #402ae4;
+
+  }
 }
 
 .github {
   position: absolute;
-  bottom: 6rem;
-  left: 9rem;
+  bottom: 2.9rem;
+  left: 7.5rem;
+  background-color: transparent;
+  border: none;
+  border-right: #f9fafb;
+  height: 7rem;
+  transform: rotate(58deg);
+  z-index: 0;
+
+  &:hover {
+    background-color: #ffffff;
+    color: #020801;
+  }
 }

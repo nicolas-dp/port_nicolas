@@ -3,7 +3,7 @@
     <!-- About -->
     <section id="about" class="about pt-5 mb-5">
       <div class="container" data-aos="fade-right">
-        <h3 data-aos="fade-down"><font-awesome-icon icon="fa-solid fa-address-card" /> PROFILO</h3>
+        <h3 class="mb-5" data-aos="fade-down"><font-awesome-icon icon="fa-solid fa-address-card" /> Profilo</h3>
         <p>
           🎓Dopo gli studi ho lavorato per 9 anni in un'azienda di consulenza
           clienti, nella quale ho sviluppato diverse skills, migliorando la
@@ -30,7 +30,7 @@
     <!-- Esperienze -->
     <section id="esperienze" class="pt-5 mb-5">
       <div class="container text-black">
-        <h3 data-aos="fade-down"><font-awesome-icon icon="fa-solid fa-briefcase" /> ESPERIENZE</h3>
+        <h3 class="mb-5" data-aos="fade-down"><font-awesome-icon icon="fa-solid fa-briefcase" /> Esperienze</h3>
 
         <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 justify-content-center">
           <div class="col" data-aos="fade-right">
@@ -100,15 +100,11 @@
         </div>
       </div>
 
-      <!-- Code -->
-      <div class="code">
-        <img height="200" src="@/assets/img/img_header.png" alt="code" />
-      </div>
     </section>
     <!-- Formazione -->
     <section id="formazione" class="pt-5 mb-5">
       <div class="container text-black">
-        <h3 data-aos="fade-down"><font-awesome-icon icon="fa-solid fa-graduation-cap" /> FORMAZIONE</h3>
+        <h3 class="mb-5" data-aos="fade-down"><font-awesome-icon icon="fa-solid fa-graduation-cap" /> Formazione</h3>
           <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 justify-content-center ">
         <div class="col">
           <div class="card">
@@ -140,8 +136,8 @@
     <!-- Competenze -->
     <section id="competenze" class="pt-5 mb-5">  
       
-      <div class="container">
-        <h4 class="text-dark" data-aos="fade-down"><font-awesome-icon icon="fa-solid fa-brush" />Skills</h4>
+      <div class="container text-black">
+        <h3 class="mb-5" data-aos="fade-down"><font-awesome-icon icon="fa-solid fa-brush" /> Skills</h3>
         <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 justify-content-center gap-3">
           <div class="card text-light bg-success mb-3 pt-3" style="max-width: 16rem;">
             <div class="card-body" data-aos="zoom-out">
@@ -172,14 +168,14 @@
     <!-- Work -->
     <section id="work" class="pt-5 mb-5">
       <div class="container text-black">
-        <h3 data-aos="fade-down"><font-awesome-icon icon="fa-solid fa-person-digging" /> Progetti</h3>
+        <h3 data-aos="fade-down" class="mb-5"><font-awesome-icon icon="fa-solid fa-person-digging" /> Progetti</h3>
 
-        <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 justify-content-center gap-3">
+        <div class="row row-cols-1 row-cols-md-5 row-cols-lg-5 justify-content-center gap-5">
           <div class="col" data-aos="zoom-in-down">
             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
               <div class="flipper">
                   <div class="front"> 
-                    <img class="img-fluid" src="@/assets/img/Spotify.png" alt="">
+                    <img class="img-fluid" src="@/assets/img/Spotify.png" alt="view spotify">
                   </div>
                   <div class="back">
                     <h4>Web App Spotify</h4>
@@ -197,7 +193,7 @@
             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
               <div class="flipper">
                   <div class="front"> 
-                    <img class="img-fluid" src="@/assets/img/CampoMinato.png" alt="">
+                    <img class="img-fluid" src="@/assets/img/CampoMinato.png" alt="view campominato">
                   </div>
                   <div class="back">
                     <h4>Campo Minato</h4>
@@ -217,7 +213,7 @@
             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
               <div class="flipper">
                   <div class="front"> 
-                    <img class="img-fluid" src="@/assets/img/Boolzapp.png" alt="">
+                    <img class="img-fluid" src="@/assets/img/Boolzapp.png" alt="view whatsapp">
                   </div>
                   <div class="back">
                     <h4>Boolzapp</h4>
@@ -232,18 +228,13 @@
         
       </div>
     </section>
-    <!-- Contatti  -->
+    <!-- Contatti  e CV-->
     <section id="contacts_cv" class="box bg-dark pt-5 pb-5">
       <div class="container bg-dark mt-5">
         <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 justify-content-center gap-5 text-white">
          
           <div class="col-6" data-aos="flip-up">
-             <h5>Contatti</h5>
-            
-                <div class="logo_footer_contatti">
-                    <img src="@/assets/img/photo_1.png" alt="foto profilo" />
-                </div>
-            
+             <h5 class="main_contatti">Contatti</h5>            
             <div class="icon">
                 
               <span>
@@ -252,11 +243,12 @@
               </span>
 
               <span>
-                <a class="btn email btn-dark" href="mailto://wellcomenicolas@gmail.com" title="Email "><font-awesome-icon icon="fa-solid fa-at" /></a>
+                <a class="btn email btn-dark" href="mailto://wellcomenicolas@gmail.com" title="Email "><font-awesome-icon icon="fa-solid fa-at" 
+                style="transform: rotate(36deg);" /></a>
               </span>
 
               <span>
-                <a class="btn instagram btn-dark px-3" href="https://www.instagram.com/_nicolasdp_/" role="button"><font-awesome-icon icon="fa-brands fa-instagram" />
+                <a class="btn instagram btn-dark px-3" href="https://www.instagram.com/_nicolasdp_/" role="button"><font-awesome-icon icon="fa-brands fa-instagram" style="transform: rotate(2deg);" />
                 </a>
               </span>
             <span>
@@ -264,7 +256,7 @@
               class="btn linkedin btn-dark px-3"
               href="https://www.linkedin.com/in/nicolas-de-palma-a77851146/"
               role="button"
-              ><font-awesome-icon icon="fa-brands fa-linkedin" />
+              ><font-awesome-icon icon="fa-brands fa-linkedin" style="transform: rotate(330deg);" />
                 </a>
             </span>
             
@@ -274,7 +266,7 @@
               href="https://github.com/nicolas-dp"
               role="button"
               ><font-awesome-icon icon="fa-brands fa-github"
-              /></a>
+              style="transform: rotate(305deg);" /></a>
             </span>
             
             </div>
