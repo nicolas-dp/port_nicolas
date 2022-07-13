@@ -18,7 +18,9 @@
 
 header {
   background-image: url('@/assets/img/bg_image.jpg');
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: inherit;
 }
 
 
@@ -71,11 +73,11 @@ header {
   transform: rotateY(180deg);
 }
 
-.flip-container,
+/* .flip-container,
 .front,
 .back {
   width: auto;
-}
+} */
 
 .flipper {
   transition: 0.6s;
@@ -108,8 +110,8 @@ header {
   border-radius: 15%;
 
   img {
-    height: 13rem;
-    width: 19rem;
+    /* height: 13rem;
+    width: 19rem; */
     border-radius: 2rem;
   }
 }
