@@ -193,7 +193,7 @@
             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
               <div class="flipper">
                   <div class="front"> 
-                    <h4 class="text-black" style="filter: drop-shadow(0px 2px 7px black);">Web App Spotify</h4>
+                    <h6 class="text-black">Web App Spotify</h6>
                     <img class="img-fluid" src="@/assets/img/Spotify.png" alt="view spotify">
                   </div>
                   <div class="back">
@@ -211,7 +211,7 @@
             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
               <div class="flipper">
                   <div class="front"> 
-                    <h4 class="text-black" style="filter: drop-shadow(0px 2px 7px black);">Campo Minato</h4>
+                    <h6 class="text-black">Campo Minato</h6>
                     <img class="img-fluid" src="@/assets/img/CampoMinato.png" alt="view campominato">
                   </div>
                   <div class="back">
@@ -231,7 +231,7 @@
             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
               <div class="flipper">
                   <div class="front"> 
-                    <h4 class="text-black" style="filter: drop-shadow(0px 2px 7px black);">Boolzapp</h4>
+                    <h6 class="text-black">Boolzapp</h6>
                     <img class="img-fluid" src="@/assets/img/Boolzapp.png" alt="view whatsapp">
                   </div>
                   <div class="back">
