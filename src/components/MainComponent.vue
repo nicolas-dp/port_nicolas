@@ -172,22 +172,22 @@
         <h3 data-aos="fade-down" class="mb-5"><font-awesome-icon icon="fa-solid fa-person-digging" /> Progetti</h3>
 
         <div class="row row-cols-1 row-cols-md-5 row-cols-lg-5 justify-content-center gap-5">
-          <!-- <div class="col" data-aos="zoom-in-down">
+          <div class="col" data-aos="zoom-in-down">
             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
               <div class="flipper">
                   <div class="front"> 
-                    <h4 class="text-black" style="filter: drop-shadow(0px 2px 7px black);">Restaurant</h4>
-                    <img class="img-fluid" src="@/assets/img/resturant.png" alt="view resturant">
+                    <h4 class="text-black" style="filter: drop-shadow(0px 2px 7px black);">DC Comics</h4>
+                    <img class="img-fluid" src="@/assets/img/dc-comics.png" alt="view dc-comics">
                   </div>
                   <div class="back">
                     <p>
-                        Riproduzione di un sito web per un ristorante utilizzando Vue.js.
-                        É possibile visionare il progetto seguendo questo link 👉: <a class="btn btn-dark" href="https://resturant-site-proj.netlify.app">Scopri</a> 
+                        Ho realizzato questo progetto prendendo spunto dal sito DC Comics, utilizzando esclusivamente HTML,CSS (Bootstrap) e JS.
+                        É possibile visionare il progetto seguendo questo link 👉: <a class="btn btn-dark" href="https://dc-comics-reply.netlify.app">Scopri</a> 
                     </p>
                   </div>
               </div>
             </div>
-          </div> -->
+          </div>
 
           <div class="col" data-aos="zoom-in-down">
             <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
