@@ -295,7 +295,7 @@
           <div class="container d-flex flex-column align-content-center align-items-center gap-3">
               <h5>👇 Scarica il Curriculum 👇</h5>
               <img src="@/assets/img/cv_image.png" alt="img CV" height="150">
-              <a class="btn btn-danger" href="https://cv-nicolas.tiiny.site/" download>Scarica CV</a>
+              <a class="btn btn-danger" href="https://drive.google.com/file/d/1VzIt8rLHcSFZMaIgbp6vTquS1Dkhshkh/view?usp=sharing" download>Scarica CV</a>
           </div>
           </div>
         </div>
